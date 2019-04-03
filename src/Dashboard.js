@@ -13,6 +13,7 @@ class Test extends React.Component {
     const stars = 4;
     this.props.store.addReview({ review, stars });
   };
+
   render() {
     console.log("STORE:", this.props.store);
     return (
