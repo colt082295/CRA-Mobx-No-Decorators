@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Store from "./store";
-import { decorate, observable, action, computed, configure } from "mobx";
-import { Provider, inject, observer } from "mobx-react";
+import { decorate, observable, action, configure } from "mobx";
+import { Provider } from "mobx-react";
 import Dashboard from "./Dashboard";
 import "./App.css";
 
